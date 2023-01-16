@@ -13,25 +13,7 @@ export async function getStaticProps() {
   }
 }
 
-//   export async function getServerSideProps() {
-//   const response = await fetch('http://localhost:3000/api/posts')
-//   const json = await response.json()
-//   console.log(response)
-//   return {
-//     props: {
-//       allPostsData: json.allPostData,
-//     },
-//   }
-// }
-
 export default function Home({ allPostsData }) {
-  // const [allPostsData, setAllPostData] = useState([])
-  // useEffect(() => {
-  //   fetch('/api/posts')
-  //     .then((res) => res.json())
-  //     .then((data) => setAllPostData(data.allPostData))
-  // }, [])
-
   return (
     <Layout home>
       <Head>
