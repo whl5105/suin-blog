@@ -35,7 +35,7 @@ export default function Layout({ children, home }) {
     }
   }
   return (
-    <div className="bg-pink-50 dark:bg-black text-gray-800 dark:text-gray-200 h-screen">
+    <div className="bg-pink-50 dark:bg-black text-gray-800 dark:text-gray-200">
       <div className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico" />

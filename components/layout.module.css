@@ -1,7 +1,10 @@
 .container {
   max-width: 36rem;
-  padding: 3rem 1rem;
-  margin: 0 auto 6rem;
+  height: 100%;
+  padding-top: 3rem;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .header {
